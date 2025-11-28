@@ -1,6 +1,10 @@
 const CUSTOMER_SITES = {
     // 默认选中的资源站
-    "iqiyi": {
+    yinghua: {
+        api: 'https://www.yhdm2.com/api.php/provide/vod',
+        name: '樱花资源',
+    },
+    iqiyi: {
         "api": "https://www.iqiyizyapi.com/api.php/provide/vod",
         "name": "iqiyi资源"
     },

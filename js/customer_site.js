@@ -52,7 +52,15 @@ const CUSTOMER_SITES = {
     maoyan: {
         api: 'https://api.maoyanapi.top/api.php/provide/vod',
         name: '猫眼资源',
-    }
+    },
+    xvi: {
+        api: 'https://xvidapi.com/api.php/provide/vod',
+        name: 'xvid资源',
+    },
+    yutu: {
+        api: 'https://apiyutu.com/api.php/provide/vod',
+        name: '玉兔资源',
+    },
 };
 
 // 调用全局方法合并

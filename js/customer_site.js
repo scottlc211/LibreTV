@@ -1,15 +1,15 @@
 const CUSTOMER_SITES = {
     // 默认选中的资源站
     yinghua: {
-        api: 'https://www.yhdm2.com/api.php/provide/vod',
+        api: 'https://m3u8.apiyhzy.com/api.php/provide/vod',
         name: '樱花资源',
     },
     iqiyi: {
-        "api": "https://www.iqiyizyapi.com/api.php/provide/vod",
-        "name": "iqiyi资源"
+        api: 'https://iqiyizyapi.com/api.php/provide/vod',
+        name: 'iqiyi资源'
     },
     tyyszy: {
-        api: 'https://www.tyyszy.com/api.php/provide/vod',
+        api: 'https://tyyszy.com/api.php/provide/vod',
         name: '天翼云资源',
     },
     bfzy: {
@@ -20,37 +20,39 @@ const CUSTOMER_SITES = {
         api: 'https://api.dytt8.net/api.php/provide/vod',
         name: '电影天堂资源',
     },
-    ruyi: {
-        api: 'https://www.ruyikan.com/api.php/provide/vod',
-        name: '如意影视',
+    souni: {
+        api: 'https://suoniapi.com/api.php/provide/vod',
+        name: '索尼资源',
     },
-
-    // 其他常用资源站
     qiqi: {
-        api: 'https://www.qiqidys.com/api.php/provide/vod',
+        api: 'https://qiqidys.com/api.php/provide/vod',
         name: '七七资源',
     },
     ffzy: {
-        api: 'https://ffzyapi.com/api.php/provide/vod',
+        api: 'https://api.ffzyapi.com/api.php/provide/vod',
         detail: 'https://www.ffzy.tv',
         name: '非凡资源',
     },
     lzzy: {
-        api: 'https://api.lzzy.cc/api.php/provide/vod',
+        api: 'https://cj.lziapi.com/api.php/provide/vod',
         name: '量子资源',
     },
-    hhzy: {
-        api: 'https://api.hhzyapi.com/api.php/provide/vod',
-        name: '红海资源',
+    xiaoji: {
+        api: 'https://api.xiaojizy.live/provide/vod',
+        name: '小鸡资源',
     },
-    kkzy: {
-        api: 'https://api.kukezy.com/api.php/provide/vod',
-        name: '酷客资源',
+    lb: {
+        api: 'https://lbapi9.com/api.php/provide/vod',
+        name: '乐播资源',
     },
-    okzy: {
-        api: 'https://api.okzy.tv/api.php/provide/vod',
-        name: 'OK资源',
+    douban: {
+        api: 'https://caiji.dbzy5.com/api.php/provide/vod',
+        name: '豆瓣资源',
     },
+    maoyan: {
+        api: 'https://api.maoyanapi.top/api.php/provide/vod',
+        name: '猫眼资源',
+    }
 };
 
 // 调用全局方法合并
